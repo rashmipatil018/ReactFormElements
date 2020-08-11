@@ -9,7 +9,7 @@ class App extends Component {
       <div className="container">
         <div className="columns">
           <div className="col-md-9 centered">
-            <h3>Quick Base Front End Craft Demo</h3>
+            <h3>React Form Elements Craft Demo</h3>
             <FormContainer />
           </div>
         </div>

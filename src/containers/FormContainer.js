@@ -113,17 +113,17 @@ class FormContainer extends Component {
 
 		};
 
-		//Code that creates a json object and posts it to the console
-		axios.post ('http://www.mocky.io/v2/566061f21200008e3aabd919', formPayload)
-		.then(response => {
-			console.log(response)
-			alert("Form submitted");
-		})
-		.catch(error=> {
-			console.log(error)
-		})
-		console.log('Post Data:', formPayload);
-		this.handleClearForm(e);
+		// //Code that creates a json object and posts it to the console
+		// axios.post ('http://www.mocky.io/v2/566061f21200008e3aabd919', formPayload)
+		// .then(response => {
+		// 	console.log(response)
+		// 	alert("Form submitted");
+		// })
+		// .catch(error=> {
+		// 	console.log(error)
+		// })
+		// console.log('Post Data:', formPayload);
+		// this.handleClearForm(e);
 	}
 	
 	render() {
